@@ -12,7 +12,7 @@ spec:
       labels:
         app: web
     spec:
-      contaners:
+      containers:
       - name: site
         image: thiagogonncalves/conversao-temperatura:v1
         ports:
